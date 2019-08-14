@@ -22,7 +22,7 @@ Follow the [Cloud Firestore Web Codelab][codelab] to set up this sample.
 
 ## License
 
-© Google, 2018. Licensed under an [Apache-2](../LICENSE) license.
+© Google, 2018. Licensed under an [Apache-2](./LICENSE) license.
 
 ## Build Status
 
