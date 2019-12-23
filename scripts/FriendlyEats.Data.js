@@ -41,15 +41,10 @@ FriendlyEats.prototype.getDocumentsInQuery = function(query, renderer) {
       }
     });
   });
-  /*
-    TODO: Render all documents in the provided query
-  */
 };
 
 FriendlyEats.prototype.getRestaurant = function(id) {
-  /*
-    TODO: Retrieve a single restaurant
-  */
+  return firebase.firestore().collection('restaurants').doc(id).get();
 };
 
 FriendlyEats.prototype.getFilteredRestaurants = function(filters, renderer) {
